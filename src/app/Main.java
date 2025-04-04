@@ -44,7 +44,7 @@ public class Main {
         System.out.println("-------------------------------------");
 
         checkEdge(3, 4);
-        System.out.println("Удаляем ребра [3:4]");
+        System.out.println("Удаляем ребро [3:4]");
         graph.removeEdge(3 ,4);
         printGraph();
         checkEdge(3, 4);
@@ -60,9 +60,9 @@ public class Main {
 
     private static void checkEdge(int source, int destination) {
         if (graph.hasEdge(source, destination)) {
-            System.out.println("Граф содержит ребра [" + source + ":" + destination + "]");
+            System.out.println("Граф содержит ребро [" + source + ":" + destination + "]");
         } else {
-            System.out.println("Граф не содержит ребра [" + source + ":" + destination + "]");
+            System.out.println("Граф не содержит ребрао[" + source + ":" + destination + "]");
         }
     }
 
